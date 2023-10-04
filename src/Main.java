@@ -23,7 +23,13 @@ public class Main {
         System.out.println(emoji3);
 
         //Завдання 3
-
+        String str = "Java це краща мова для програмування";
+        StringBuilder sb = new StringBuilder();
+        for (int i = str.length() - 1; i >= 0; i--) {
+            sb.append(str.charAt(i));
+        }
+        String reversedStr = sb.toString();
+        System.out.println(reversedStr);
 
     }
 }
